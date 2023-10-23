@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Marmitaria Motta</h1>
+    <form method="get" action="teste.jsp">
+       Nome: <input type="text" name="nome"> <br>
+       <p></p>
+       Email: <input type="email" name="email">
+       <p>Qual tamanho o tamanho da marmita?</p>
+        <input type="radio" name="Tamanho" value="g" checked> Grande
+        <input type="radio" name="Tamanho" value="m"> Medio
+        <input type="radio" name="Tamanho" value="p"> Pequeno
+        <br>
+        <p>Qual sabor?</p> 
+        <select name="Mistura">
+            <option>Frango</option>
+            <option>Lasanha</option>
+            <option>Churrasco</option>
+            <option>Vegetais</option>
+        </select>
+        <br>
+        Guarniçao: 
+        <input type="checkbox" name="salada" value="sim"> Salada
+        <input type="checkbox" name="macarrao" value="sim"> Macarrão Alho e Oleo
+        <br>
+        Data de entrega:
+         <input type="date" name="dataentrega">
+         <br>
+         Comentário <br>
+         <textarea name="comentario" cols="30" rows="10"></textarea>
+         <br>
+        <input type="submit">
+        
+        <select name="select">
+            <option value="valor1">Valor 1</option>
+            <option value="valor2" selected>Valor 2</option>
+            <option value="valor3">Valor 3</option>
+          </select>
+    </form>
+</body>
+</html>
